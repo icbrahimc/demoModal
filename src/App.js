@@ -30,7 +30,12 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <button name="login" onClick={this.handleOpenModal}>Login</button>
-        <Modal isOpen={this.state.showModal} contentLabel="Minimal Modal Example">
+        <Modal isOpen={this.state.showModal} contentLabel="Minimal Modal Example" className="Modal"
+           overlayClassName="Overlay">
+          <div className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h2>Welcome to React</h2>
+          </div>
           <button onClick={this.handleCloseModal}>Close Modal</button>
         </Modal>
         <p className="App-intro">

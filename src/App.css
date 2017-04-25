@@ -18,6 +18,30 @@
   font-size: large;
 }
 
+.Modal {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      border: 1px solid #ccc;
+      background: #fff;
+      overflow: auto;
+      WebkitOverflowScrolling: touch;
+      borderRadius: 4px;
+      outline: none;
+      padding: 20px;
+}
+
+.Overlay {
+    position          : fixed;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    backgroundColor   : rgba(255, 255, 255, 0.75);
+  }
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
