@@ -18,6 +18,10 @@
   font-size: large;
 }
 
+.Form {
+  padding-left: 50%;
+}
+
 .Modal {
       position: absolute;
       top: 20px;
