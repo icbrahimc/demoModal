@@ -43,9 +43,12 @@ class App extends Component {
               <label>
                 Password:
                 <input type="text" name="Password" />
-              </label>
-              <input type="submit" value="Submit" />
+              </label><br></br>
+              <a href="#" name="Forgot Password">Forgot Password</a><br></br>
+              <input type="submit" value="Submit" /><br></br>
             </form>
+            <a href="#" name="Social Media">Social Media Link</a><br></br>
+            
             </div>
           <button onClick={this.handleCloseModal}>Close Modal</button>
         </Modal>
